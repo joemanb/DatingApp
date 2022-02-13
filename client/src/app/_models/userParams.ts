@@ -7,8 +7,7 @@ export class UserParams {
     pageNumber = 1;
     pageSize = 5;
 
-    constructor(user: User)
-    {
-        this.gender = user.gender === "female" ? "male": "female";
+    constructor(user: User) {
+        this.gender = user.gender === "female" ? "male" : "female";
     }
 }
